@@ -1,0 +1,76 @@
+#services {
+  padding: 80px 15px;
+}
+
+#services .title {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+#services .title .circle {
+  background: rgba(41, 187, 85, 0.514);
+  width: 280px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+}
+#services .title h1 {
+  position: relative;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Permanent Marker";
+  margin-bottom: 2rem;
+  z-index: 1;
+  letter-spacing: 4px;
+}
+
+#services .services-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  margin: 40px auto;
+}
+#services .services-container .box {
+  background: rgb(255, 255, 255);
+  transition: all 0.4s ease-in-out;
+  padding: 40px;
+  box-shadow: -17px 25px 20px -6px rgba(0, 0, 0, 0.36);
+}
+
+#services .services-container .box:hover {
+  background: rgba(28, 194, 28, 0.671);
+  cursor: pointer;
+}
+#services .services-container .box .fas {
+  font-size: 2rem;
+  color: rgb(59, 163, 170);
+  margin-bottom: 2rem;
+}
+#services .services-container .box h5 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#services .services-container .box p {
+  color: rgb(117, 109, 109);
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+#services .services-container .box.blue {
+  border-bottom: 2px solid #270cc0cb;
+}
+#services .services-container .box.red {
+  border-bottom: 2px solid #c00c0ccb;
+  box-shadow: -5px 25px 20px -6px rgba(0, 0, 0, 0.36);
+}
+#services .services-container .box.yellow {
+  border-bottom: 2px solid #d8ee10fa;
+}
