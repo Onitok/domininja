@@ -2,9 +2,10 @@
 @import "cssreset.css";
 @import "top-section.css";
 @import "services.css";
+@import "portfolio-section.css";
 
 body {
-  background: rgba(230, 230, 230, 0.822);
+  background: rgba(51, 51, 51, 0.822);
 }
 
 .container {
